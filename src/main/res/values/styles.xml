@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="FirstTheme" parent="AppTheme">
+        <item name="button_style">@drawable/selector_rectangle</item>
+        <item name="my_background">@color/white</item>
+        <item name="my_text_color">@color/black</item>
+    </style>
+
+    <style name="SecondTheme" parent="AppTheme">
+        <item name="button_style">@drawable/selector_round</item>
+        <item name="my_background">@color/green</item>
+        <item name="my_text_color">@color/red</item>
+    </style>
+
+</resources>
